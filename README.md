@@ -6,6 +6,7 @@
 
 ``` bash
 # install dependencies
+npm install swiper --save-dev
 npm install
 
 # serve with hot reload at localhost:8080
