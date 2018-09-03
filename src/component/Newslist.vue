@@ -38,7 +38,6 @@ export default {
         axios.get("https://www.simplelinker.com/company/simple/getNewsList")
         .then((res)=>{
             this.items=res.data.result;
-            console.log(res.data.result);
         })
         .then(error=>{
             console.log(error);

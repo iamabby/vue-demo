@@ -24,7 +24,6 @@ export default {
       axios.get("https://www.simplelinker.com/company/simple/getNewsDetail?NEWS_ID="+this.$route.params.id)
       .then(res=>{
           this.items=res.data.result;
-          console.log(res.data.result);
       })  
       .then(error=>{
           console.log(error);

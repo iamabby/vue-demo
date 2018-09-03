@@ -66,6 +66,15 @@ module.exports = {
         exclude: /node_modules/
       },
       {
+        test: /\.js$/,
+        use: [{
+          loader: 'babel-loader',
+          options: {
+             presets: ['es2015']
+          }
+        }]
+      },
+      {
         test: /\.(png|jpg|gif|svg)$/,
         loader: 'file-loader',
         options: {

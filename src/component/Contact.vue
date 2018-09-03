@@ -52,7 +52,6 @@ data () {
   },
   methods: {
     handler ({BMap, map}) {
-      console.log(BMap, map)
       this.center.lng = 113.00074
       this.center.lat = 23.112487
       this.zoom = 15

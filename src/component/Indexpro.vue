@@ -32,7 +32,6 @@
         mounted() {
             axios.get("https://www.simplelinker.com/company/simple/getRecommend")
             .then((response)=>{
-                console.log(response.data.result)
                 this.items=response.data.result;
             })
             .then((error)=>{

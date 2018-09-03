@@ -19,7 +19,6 @@ export default {
         axios.get("https://www.simplelinker.com/company/simple/getProductDetail?PRODUCT_ID="+ this.$route.params.id)
         .then((respones)=>{
            this.items=respones.data.result;
-            console.log(respones.data);
         })
         .then((error)=>{
             console.log(error);

@@ -2,7 +2,7 @@
     <div class="fixbox">
         <ul>
             <li>
-                <a href="http://wpa.qq.com/msgrd?v=3&uin=1127153857&site=qq&menu=yes" target="_blank" style="position:relative;">
+                <a href="https://wpa.qq.com/msgrd?v=3&uin=1127153857&site=qq&menu=yes" target="_blank" style="position:relative;">
                     <img src="./../assets/icon-qq.png" alt="" />
                 </a>
             </li>
