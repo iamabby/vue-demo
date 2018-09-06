@@ -1,48 +1,83 @@
 <template>
-    <div>
-        <div class="bdsharebuttonbox">
-            <a href="#" class="bds_more" data-cmd="more"></a>
-            <a href="#" class="bds_qzone" data-cmd="qzone"></a>
-            <a href="#" class="bds_tsina" data-cmd="tsina"></a>
-            <a href="#" class="bds_tqq" data-cmd="tqq"></a>
-            <a href="#" class="bds_renren" data-cmd="renren"></a>
-            <a href="#" class="bds_weixin" data-cmd="weixin"></a>
-        </div>
-    </div>
+	<div>
+		<social-sharing url="https://vuejs.org/" title="The Progressive JavaScript Framework" description="Intuitive, Fast and Composable MVVM for building interactive interfaces." quote="Vue is a progressive framework for building user interfaces." hashtags="vuejs,javascript,framework" twitter-user="vuejs" inline-template>
+			<div class="share_container">
+				<network network="email">
+					<i class="fa fa-envelope"></i> Email
+				</network>
+				<network network="facebook">
+					<i class="fa fa-facebook"></i> Facebook
+				</network>
+				<network network="googleplus">
+					<i class="fa fa-google-plus"></i> Google +
+				</network>
+				<!--<network network="line">
+					<i class="fa fa-line"></i> Line
+				</network>
+				<network network="linkedin">
+					<i class="fa fa-linkedin"></i> LinkedIn
+				</network>
+				<network network="odnoklassniki">
+					<i class="fa fa-odnoklassniki"></i> Odnoklassniki
+				</network>
+				<network network="pinterest">
+					<i class="fa fa-pinterest"></i> Pinterest
+				</network>
+				<network network="reddit">
+					<i class="fa fa-reddit"></i> Reddit
+				</network>
+				<network network="skype">
+					<i class="fa fa-skype"></i> Skype
+				</network>
+				<network network="sms">
+					<i class="fa fa-commenting-o"></i> SMS
+				</network>
+				<network network="telegram">
+					<i class="fa fa-telegram"></i> Telegram
+				</network>
+				<network network="vk">
+					<i class="fa fa-vk"></i> VKontakte
+				</network>
+				-->
+				<network network="twitter">
+					<i class="fa fa-twitter"></i> Twitter
+				</network>
+				
+				<network network="weibo">
+					<i class="fa fa-weibo"></i> Weibo
+				</network>
+				<network network="whatsapp">
+					<i class="fa fa-whatsapp"></i> Whatsapp
+				</network>
+			</div>
+		</social-sharing>
+	</div>
 </template>
 <script>
-export default {
-    components:{
-        name:"Share",
-    },
-    mounted() {
-      this.$nextTick(function () {
-    // 执行函数
-    
- window._bd_share_config={
-                "common":{
-                    "bdSnsKey":{},
-                    "bdText":"",
-                    "bdMini":"2",
-                    "bdPic":"",
-                    "bdStyle":"0",
-                    "bdSize":"16"
-                },
-                "share":{},
-                /*"image":{
-                    "viewList":["qzone","tsina","tqq","renren","weixin"],
-                    "viewText":"分享到：","viewSize":"16"
-                },*/
-                "selectShare":{
-                    "bdContainerClass":null,
-                    "bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]
-                }
-            };
-            const s = document.createElement('script');
-            s.type = 'text/javascript';
-            s.src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5);
-            document.body.appendChild(s);
-     })
-    },
-}
+	export default {
+		components: {
+			name: "Share",
+		},
+		
+		mounted() {
+			this.$nextTick(function() {
+
+			})
+		},
+	}
 </script>
+
+
+
+<style lang="less">
+	.share_container {
+		span{
+		display: inline-block;
+		vertical-align: middle;
+		width: 80px;
+		margin:10px 5px;
+		padding: 10px;
+		border: 1px solid #eee;
+	}
+	}
+</style>

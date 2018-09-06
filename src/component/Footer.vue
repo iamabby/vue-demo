@@ -2,13 +2,13 @@
     <div class="footerBox">
         <div class="footer">
             <div class="mainContent">
-                <div class="contact">
+                <!--<div class="contact">
                     <p>联系我们
                         <span class="telphone">400-8050-562</span>
                     </p>
                     <p class="slogan">为物联网提供更便捷的蓝牙接入</p>
-                </div>
-                <div class="footerTable">
+                </div>-->
+                <div class="footerTable" style="width: 100%;">
                     <table>
                         <tr>
                             <td>
@@ -17,25 +17,25 @@
                             <td>
                                 <router-link to="/contact">联系我们</router-link>
                             </td>
-                            <td>
+                            <!--<td>
                                 <router-link to="/download">资料下载</router-link>
                             </td>
                             <td>
                                 <router-link to="/support">技术支持</router-link>
-                            </td>
+                            </td>-->
                             <td>
                                 <router-link to="/product">产品中心</router-link>
                             </td>
                             <td>
                                 <router-link to="/solution">解决方案</router-link>
                             </td>
-                            <td>
+                            <!--<td>
                                 <p>微信公众号</p>
                                 <img src=".././assets/erweima.jpg" alt="" class="erweima" />
 
-                            </td>
-                            <td>
-                               <share></share>
+                            </td>-->
+                            <td style="width: 60%;">
+                             <share></share>
                             </td>
                         </tr>
                     </table>
@@ -44,14 +44,14 @@
         </div>
         <div class="bottomer">
            <div class="mainContent">
-                <div class="blogroll">
+               <!-- <div class="blogroll">
                     <span>友情链接：</span>
                     <a href="http://www.ickey.cc/e/" target="_blank">云汉电子社区</a>
                     <a href="http://www.elecfans.com/" target="_blank">电子发烧友</a>
                     <a href="http://www.ti.com.cn/" target="_blank">德州仪器（TI）</a>
-                </div>
+                </div>-->
 
-                <div class="copyright">Copyright © 2016 深圳市昇润科技有限公司 版权所有粤ICP备15015853号</div>
+                <div class="copyright">Copyright © 2016 深圳市昇润科技有限公司 版权所有粤ICP备18089294号</div>
 
             </div>
         </div>
@@ -87,7 +87,7 @@ export default {
 .contact{
     display: inline-block;
     vertical-align: middle;
-    width: 30%;
+    width: 24%;
     text-align: left;
 }
 .telphone{
@@ -104,7 +104,7 @@ export default {
 .footerTable{
     display: inline-block;
     vertical-align: middle;
-    width: 68%;
+    width: 74%;
     text-align: right;
 
 }
@@ -113,7 +113,7 @@ export default {
 }
 .footerTable table td{
     position: relative;
-    padding: 20px ;
+    padding: 20px 10px ;
     text-align: center;
     box-sizing: border-box;
 }
