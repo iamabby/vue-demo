@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <img :src="items.productImg" alt="" />
-        <div>这个是详情界面</div>
+    <div v-if="items.length>0">
+        <img :src="items[0].productImg" alt="" />
+        <div>{{items[0].productName}}</div>
     </div>
 </template>
 <script>
@@ -12,17 +12,19 @@ export default {
     },
     data(){
         return{
-         items:""
+         items:[]
         }
     },
     mounted() {
-        axios.get("https://www.simplelinker.com/company/simple/getProductDetail?PRODUCT_ID="+ this.$route.params.id)
-        .then((respones)=>{
-           this.items=respones.data.result;
-        })
-        .then((error)=>{
-            console.log(error);
-        })
+    	
+    	  axios.get("https://www.simplelinker.com/company/simple/getProductDetail?product_id="+ this.$route.params.id)
+            .then((response)=>{
+                this.items=response.data.result;
+                console.log(this.items);
+            })
+            .then((error)=>{
+                console.log(error)
+            })
     },
 }
 </script>

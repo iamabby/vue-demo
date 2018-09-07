@@ -8,11 +8,11 @@
             </li>
             <li class="email">
                 <img src="./../assets/icon-email.png" alt="" />
-                <span>marketing@tuner168.com</span>
+                <span>office@simplelinker.com</span>
             </li>
             <li class="tel">
                 <img src="./../assets/icon-tel.png" alt="" />
-                <span>400-8050-562</span>
+                <span>0757-81862362</span>
             </li>
             <li class="backTop" @click="backTop" >
                 <img src="./../assets/icon-back.png" alt="" />
