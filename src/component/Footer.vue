@@ -51,7 +51,7 @@
                     <a href="http://www.ti.com.cn/" target="_blank">德州仪器（TI）</a>
                 </div>-->
 
-                <div class="copyright">Copyright © 2016 深圳市昇润科技有限公司 版权所有粤ICP备18089294号</div>
+                <div class="copyright">Copyright © 2016 佛山市芯谱电子科技有限公司 版权所有粤ICP备18089294号</div>
 
             </div>
         </div>

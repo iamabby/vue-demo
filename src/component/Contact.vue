@@ -14,14 +14,14 @@
                 </p>
 
                 <p>
-                    <b class="red">联系电话：1512160785</b>
+                    <b class="red">联系电话：0757-81862362</b>
                 </p>
                 <p>
                     <b class="red">微信号：wx_liangzh</b>
                 </p>
                 <p>
                     <b class="p-contact-b" style="line-height:1.5;">邮箱：</b>
-                    <span style="line-height:1.5;">marketing@tuner168.com</span>
+                    <span style="line-height:1.5;">office@simplelinker.com</span>
                 </p>
 
             </div>

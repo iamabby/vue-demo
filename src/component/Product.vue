@@ -1,7 +1,9 @@
 <template>
     <div>
 
-      product
+      <div>
+      <indexpro></indexpro>
+      </div>
 
       <router-view></router-view>
     </div>
@@ -11,7 +13,13 @@
 
 
 <script>
+	import Indexpro from "./Indexpro";
     export default{
-        name:"Product"
+       
+        
+        components:{
+        	 name:"Product",
+        Indexpro,
+        }
     }
 </script>

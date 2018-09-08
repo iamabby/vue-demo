@@ -22,13 +22,13 @@
 							</li>
 						</ul>-->
 					</li>
-					<li>
+					<!--<li>
 						<router-link to="/home">蓝牙方案</router-link>
 					</li>
 
 					<li>
 						<router-link to="/home">服务支持</router-link>
-					</li>
+					</li>-->
 
 					<!--<li>
 						<router-link to="/newslist">新闻动态</router-link>
